@@ -1,0 +1,215 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap ') ;
+
+body{
+    font-family: "Cairo", sans-serif;
+    padding: 0 px;
+    margin:0px;
+
+   
+}
+/*header début*/
+.header{
+    background-color: rgb(19, 153, 179);
+    color: white;
+    
+    height: 90px;
+    line-height: 90px;
+    
+}
+
+.header a{
+    font-size:48px;
+    color:white
+
+}
+.header a:hover{
+    font-size:58px;
+    color:rgb(4, 92, 151)
+
+}
+.header img{
+    width: 100px;
+    height:100px;
+}
+.header p {
+    float: right;
+
+}
+/*fin header*/
+/*Début NavBar*/
+.navbar .navbar-brand{
+    color: rgb(24, 178, 213);
+}
+.color:hover{
+   color:rgb(24, 178, 213) ;
+}
+
+/*Fin Navbar*/
+/*Début slider*/
+.amg{
+   
+    
+}
+
+.carousel-item img{
+  border-bottom: 2px solid rgb(19, 153, 179);
+  height: 450px;
+  width: 900px;
+  align-items: center;
+  
+  
+    
+}
+/*Fin Slider*/
+
+/*Début Vie Scolaire*/
+.scolaire {
+    margin: 30px;
+}
+.scolaire i{
+
+   background-color:  rgb(19, 153, 179);
+   line-height: 100px;
+   column-width: 100px;
+   color: white;
+
+}
+.scolaire p{
+    color: rgb(74, 122, 122);
+}
+
+
+/*Fin Vie Scolaire*/
+
+/*Début vies des classes*/
+
+
+hr{
+    
+    color: rgb(19, 153, 179);
+}
+.viedesclasses {
+    margin: 30px;
+    padding: 30px;
+   
+}
+
+.card-body {
+    background-color: rgb(210, 252, 255);
+    overflow: hidden;
+}
+.card-body a{
+    text-align: center;
+}
+.card img:hover{
+    transform: scale(1.1);
+}
+
+.card-body .btn{
+   background-color:rgb(19, 153, 179);
+   color: white; 
+   padding: center;
+}
+.card-body .btn:hover{
+    color:rgb(19, 153, 179);
+    background-color: white;
+}
+
+/*Fin vies des classes*/
+ /*Début infra news*/
+ .infranews{
+    display: flex;
+    justify-content: space-between;
+    margin:30;
+    padding: 30px;
+    background-color: rgb(240, 243, 246);
+ }
+ .infranews img{
+width:150px;
+height: 150px;
+ }
+ .infranews .card-body1{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+ }
+ /*******evenement********/
+ .infranews1 {
+    
+    justify-content: space-between;
+    margin:30;
+    padding: 30px;
+    background-color: rgb(240, 243, 246);
+   
+
+ }
+ .infranews1 img{
+    width:350px;
+    height: 350px;
+ }
+ .infranews1 .card-body1{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+ }
+ .card1{
+    margin-bottom: 20px;
+ }
+ /*****fin evenement*********/
+
+ /*fin infra news*/
+ /********Contact Début***/
+ .contact{
+    padding: 50px;
+    margin: 30px;
+    background-color: rgb(242, 246, 250);
+ }
+ /******contact fin*****/
+ .propo .pp{
+    display: flex;
+
+ }
+ .card2{
+    display: flex;
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+ }
+
+ .card2 .card-body2{
+   
+   background-color: white;
+   color: rgb(17, 17, 34);
+    
+ }
+ .card2 .card{
+    margin: 20px;
+ }
+ 
+
+ /******* Fin propos****/
+ /*Début footer*/
+ footer{
+    padding: 20px;
+    background-color:rgb(19, 153, 179) ;
+    color: white;
+   
+ }
+ 
+ footer a {
+    color:white;
+ }
+ iframe{
+    text-align: right;
+     width:600px;
+     height: 200px;
+    }
+    .footer1{
+        background-color: rgb(5, 73, 109);
+       padding: 10px;
+       color: white;
+       text-align: center;
+    }
+ /*fin footer*/
